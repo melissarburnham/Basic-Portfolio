@@ -1,0 +1,14 @@
+
+h1{
+	background-color: #4aaaa5;
+	width: 300px;
+	padding-left: 60px;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+}
+ li{
+	display: inline;
+ }
