@@ -5,6 +5,16 @@
 	overflow: auto;
 }
 
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
 #headername {
 	background-color: #4aaaa5;
 	width: 33%;
@@ -19,10 +29,22 @@
 .headersection {
 	background-color: #ffffff;
 	margin-bottom: 20px;
+	border-bottom: 3px solid #cccccc;
 }
 
 .navigation {
 	background-color: #ffffff;
+	margin-top: 35px;
+	word-spacing: 4px;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+a {
+	text-decoration: none;
+	color: #dddddd;
 }
 
 h1 {
@@ -46,8 +68,9 @@ ul {
 	background-color: #ffffff;
 	width: 650px;
 	float: left;
-	margin-right: 20px;
+	margin-right: 18px;
 	padding: 10px;
+	border: 1px solid #dddddd;
 }
 .connect{
 	width: 270px;
@@ -85,6 +108,24 @@ form{
 	margin-left: 20px;
 }
 
+input[type=text] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 4px;
+}
+
+textarea {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    border-radius: 4px;
+}
+
 #portfoliopics {
 	padding:20px;
 }
@@ -104,9 +145,14 @@ footer {
 	height: 50px;
 	width: 100%;
 	background-color: #666666;
-	position: fixed;
 	left: 0;
 	bottom: 0;
 	border-top: 4px solid #4aaaa5;
 	padding-top: 25px;
+	margin-top: -50%;
+	position: fixed;
+}
+
+.push {
+	height: 50px;
 }
