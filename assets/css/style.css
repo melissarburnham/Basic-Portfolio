@@ -134,8 +134,47 @@ input[type=submit] {
 	padding: 5px;
 }
 
-#portfoliopics {
+.portfoliopics {
 	padding:20px;
+	position: relative;
+}
+
+.projecttitles {
+	position: absolute;
+	left: 0;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	color: #eeeeee;
+	font-size: 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	background-color: #4aaaa5;
+	padding-top: 30px;
+
+}
+
+#projectone {
+	margin-left: 20px;
+	top: 16.5%;
+}
+#projecttwo {
+	margin-left: 324px;
+	top: 16.5%;
+}
+
+#projectthree {
+	margin-left: 20px;
+	top: 50%;
+}
+
+#projectfour {
+margin-left:324px;
+	top: 50%;
+}
+
+#projectfive {
+margin-left: 20px;
+	top:78%;
 }
 
 .linebreak {
