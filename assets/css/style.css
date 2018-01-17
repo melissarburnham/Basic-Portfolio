@@ -10,11 +10,6 @@ html, body {
 	margin: 0;
 }
 
-.wrapper{
-	min-height: 100%;
-	margin-bottom: -50px;
-}
-
 #headername {
 	background-color: #4aaaa5;
 	width: 33%;
@@ -54,7 +49,9 @@ h1 {
 }
 
 body {
-	background-color: black;
+	background-image: url('../images/swirl_pattern.jpg');
+	height: 100%;
+	position: relative;
 	margin-bottom: 100px;
 }
 
@@ -106,7 +103,8 @@ h3{
 }
 
 form{
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 input[type=text] {
@@ -130,8 +128,11 @@ textarea {
 input[type=submit] {
 	border: 1px solid #666666;
 	border-radius: 4px;
-	background-color: #cccccc;
+	background-color: #4aaaa5;
+	color: #ffffff;
 	padding: 5px;
+	width: 100px;
+	height: 40px;
 }
 
 .portfoliopics {
@@ -147,7 +148,7 @@ input[type=submit] {
 	text-align: center;
 	color: #eeeeee;
 	font-size: 25px;
-	font-family: 'Georgia', Times, Times New Roman, serif; 
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 	background-color: #4aaaa5;
 	padding-top: 30px;
 
