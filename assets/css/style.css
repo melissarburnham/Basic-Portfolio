@@ -1,13 +1,7 @@
-
 .container {
 	width: 960px;
 	margin: 0 auto;
 	overflow: auto;
-}
-
-html, body {
-	height: 100%;
-	margin: 0;
 }
 
 #headername {
@@ -53,6 +47,8 @@ body {
 	height: 100%;
 	position: relative;
 	margin-bottom: 100px;
+	padding-bottom: 50px;
+	min-height: 100%;
 }
 
 ul {
@@ -186,7 +182,7 @@ margin-left: 20px;
 	margin-bottom: 10px;
 }
 
-footer {
+.footer {
 	text-align: center;
 	color: white;
 	vertical-align: center;
@@ -199,8 +195,5 @@ footer {
 	padding-top: 25px;
 	margin-top: -50%;
 	position: fixed;
-}
-
-.push {
-	height: 50px;
+	clear: both;
 }
