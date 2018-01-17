@@ -55,6 +55,7 @@ h1 {
 
 body {
 	background-color: black;
+	margin-bottom: 100px;
 }
 
 ul {
@@ -126,8 +127,11 @@ textarea {
     border-radius: 4px;
 }
 
-input [type=submit] {
+input[type=submit] {
 	border: 1px solid #666666;
+	border-radius: 4px;
+	background-color: #cccccc;
+	padding: 5px;
 }
 
 #portfoliopics {
